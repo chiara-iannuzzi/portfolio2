@@ -8,11 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'purple-200': '#cab9f7',
+        'gray-dark': '#273444',
+        'gray': '#8492a6',
+        'gray-light': '#d3dce6',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      screens: {
+        xs: "450px"
+      }
     },
   },
   plugins: [],
